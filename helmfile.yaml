@@ -9,12 +9,7 @@ repositories:
 
 releases:
 #OPS Helm Charts
-- name: helloworld
-   namespace: default
-   chart: eboots/helloworld
-   version: 0.1.1.6
-
-environments:
-  default:
-    values:
-    - environment: "develop"
+  - name: helloworld
+    namespace: helloworld
+    chart: eboots/helloworld
+    version: 0.1.1.6

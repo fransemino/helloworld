@@ -11,5 +11,5 @@ releases:
 #OPS Helm Charts
   - name: helloworld
     namespace: helloworld
-    chart: helloworld
+    chart: eboots/helloworld
     version: 0.1.1.6

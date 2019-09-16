@@ -9,7 +9,7 @@ repositories:
 
 releases:
 #OPS Helm Charts
-- helloworld
+- name: helloworld
    namespace: default
    chart: eboots/helloworld
    version: 0.1.1.6

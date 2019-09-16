@@ -1,0 +1,15 @@
+# Chart repositories used from within this state file
+# Use `helm-s3` and `helm-git` and whatever Helm Downloader plugins
+# to use repositories other than the official repository or one backend by chartmuseum.
+repositories:
+- name: eboots
+  url: http://localhost:8080
+- name: incubator
+  url: https://kubernetes-charts-incubator.storage.googleapis.com
+
+releases:
+#OPS Helm Charts
+- helloworld
+   namespace: default
+   chart: eboots/helloworld
+   version: 0.1.1.6
